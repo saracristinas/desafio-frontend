@@ -4,6 +4,7 @@
   "description": "> **ATENÇÃO:** Não envie pull requests para este repositório. **=]**",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js -e ejs,js,css,html,jpg,png,scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
