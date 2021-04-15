@@ -8,7 +8,7 @@ app.use(express.static("public"))
 
 // define the first route
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/public'));
 })
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, 
